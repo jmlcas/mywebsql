@@ -1,9 +1,7 @@
-version: '3.3'
-
 services:
 
     mywebsql:
-        image: xaviblanes/mywebsql
+        image: xaviblanes/mywebsql:latest
         container_name: mywebsql
         ports:
             - "8200:80"
@@ -14,5 +12,4 @@ services:
             /bin/sh -c "service apache2 start && \
                service mysql start && \
                bash"
-
                
