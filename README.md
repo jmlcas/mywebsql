@@ -1,7 +1,6 @@
-# mywebsql
-MyWebSQL - Gestor base de datos - Docker compose
+# MyWebSQL
 
-Ver en "localhost:8200"
+Ver en "http://localhost:8200"
 
 Usuario: admin
 
